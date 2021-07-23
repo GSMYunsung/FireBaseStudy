@@ -2,8 +2,13 @@ package com.example.firebasesimpleapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import androidx.databinding.DataBindingUtil
 import com.example.firebasesimpleapp.databinding.ActivityBoardListBinding
 import com.example.firebasesimpleapp.databinding.ActivityBoardWriteBinding
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
@@ -14,6 +19,8 @@ class BoardWriteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_board_write)
+
+        binding = DataBindingUtil.setContentView(this,R.layout.activity_board_write)
 
         binding.writeBtn.setOnClickListener {
             // Write a message to the database
