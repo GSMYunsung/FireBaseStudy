@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525288430152",
+    "project_id": "study-sign-up",
+    "storage_bucket": "study-sign-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525288430152:android:9a87efa0f0f1c474ecd67d",
+        "android_client_info": {
+          "package_name": "com.example.firebasesimpleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525288430152-65imfh2h1mikja20qc4ihnq2n5a1dcee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoT5HyscDfwHr6MLBvDZYvWRrZQ9cCG4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525288430152-65imfh2h1mikja20qc4ihnq2n5a1dcee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
